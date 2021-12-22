@@ -1,0 +1,73 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "target": "es5",
+        "resolveJsonModule": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noUnusedLocals": false,
+        "removeComments": true,
+        "strictNullChecks": false,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "lib": ["es6", "es7", "dom"],
+        "baseUrl": "./src",
+    },
+    "paths": {
+      "@assets": [
+        "src/assets"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@api": [
+        "src/api"
+      ],
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@store": [
+        "/store"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@features": [
+        "src/features"
+      ],
+      "@features/*": [
+        "src/features/*"
+      ],
+      "@pages": [
+        "src/pages"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@ui": [
+        "src/ui"
+      ],
+      "@ui/*": [
+        "src/ui/*"
+      ],
+      "@lib": [
+        "src/lib"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ]
+    },
+    "include": [
+      "src/**/*",
+      "craco.config.js"
+    ],
+    "exclude": ["dist", "build", "node_modules"]
+  }
+  
