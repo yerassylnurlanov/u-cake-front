@@ -1,9 +1,10 @@
+import { Header } from 'features/common/organisms/header';
 import React from 'react';
 import styled from 'styled-components'; 
-
 export const MainPage = () => {
     return(
         <StyledContainer>
+            <Header></Header>
             <p>
                 It is main page
             </p>

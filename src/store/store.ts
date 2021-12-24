@@ -4,14 +4,16 @@ import { persistReducer} from 'redux-persist'
 import persistStore from 'redux-persist/lib/persistStore';
 import storage from 'redux-persist/lib/storage'
 import thunk from 'redux-thunk'
+import counter from './counter';
 
 const persistConfig = {
     key: 'root',
     storage
 };
+
 const reducers = combineReducers({
-    //...            
-   });
+    counter
+}) 
 
 const persistedReducer = persistReducer(persistConfig, reducers);
 
