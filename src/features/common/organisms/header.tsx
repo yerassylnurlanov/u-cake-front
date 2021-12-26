@@ -1,10 +1,11 @@
 import React from 'react';
-import styled from 'styled-components'; 
+import styled from 'styled-components';
+import { InfoRow } from './info-row';
 
-export const Header = ()=>{
+export const Header = () => {
     return (
         <StyledContainer>
-
+            <InfoRow /> 
         </StyledContainer>
     )
 }
