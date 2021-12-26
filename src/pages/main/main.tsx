@@ -1,16 +1,12 @@
-import { Header } from 'features/common/organisms/header';
 import React from 'react';
 import styled from 'styled-components'; 
+import { CommonTemplate } from 'features/common';
 export const MainPage = () => {
     return(
-        <StyledContainer>
-            <Header/>
+        <CommonTemplate>
             <p>
                 It is main page
             </p>
-        </StyledContainer>
+        </CommonTemplate>
     )
 }
-const StyledContainer = styled.div`
-    width: 100%;
-`

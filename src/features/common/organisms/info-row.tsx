@@ -6,6 +6,7 @@ export const InfoRow = ()=>{
     return(
         <StyledContainer>
             <StyledLogo src={logo}/>
+            
         </StyledContainer>
     )
 }
