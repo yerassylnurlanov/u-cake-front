@@ -1,17 +1,14 @@
-import { CommonTemplate } from 'features/common/common-template';
+import { Header } from 'features/common/organisms/header';
 import React from 'react';
-import styled from 'styled-components';
-
+import styled from 'styled-components'; 
 export const MainPage = () => {
-    return (
-        <CommonTemplate>
-            <StyledContainer>
-                <p>
-                    It is main page
-                </p>
-            </StyledContainer>
-        </CommonTemplate>
-
+    return(
+        <StyledContainer>
+            <Header/>
+            <p>
+                It is main page
+            </p>
+        </StyledContainer>
     )
 }
 const StyledContainer = styled.div`
